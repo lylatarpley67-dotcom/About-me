@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Lyla Bean's About Me</title>
+
+  <style>
+
+    body {
+
+      background: linear-gradient(135deg, #ff4b4b, #ffb347);
+
+      font-family: Comic Sans MS, Arial, sans-serif;
+
+      text-align: center;
+
+      color: white;
+
+      padding: 20px;
+
+    }
+
+    .card {
+
+      background: white;
+
+      color: #b30000;
+
+      border-radius: 25px;
+
+      padding: 25px;
+
+      max-width: 700px;
+
+      margin: auto;
+
+      box-shadow: 0 0 25px rgba(0,0,0,0.3);
+
+    }
+
+    h1 {
+
+      font-size: 45px;
+
+    }
+
+    .emoji {
+
+      font-size: 50px;
+
+    }
+
+    .section {
+
+      background: #fff0e6;
+
+      margin: 15px;
+
+      padding: 15px;
+
+      border-radius: 18px;
+
+      font-size: 22px;
+
+    }
+
+    button {
+
+      background: red;
+
+      color: white;
+
+      border: none;
+
+      padding: 15px 25px;
+
+      border-radius: 20px;
+
+      font-size: 20px;
+
+      cursor: pointer;
+
+    }
+
+    button:hover {
+
+      background: orange;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="card">
+
+    <div class="emoji">✨🐰🐮✨</div>
+
+    <h1>Hi, I'm Lyla Bean!</h1>
+
+    <p>Welcome to my super fun About Me website!</p>
+
+    <div class="section">🎨 Favorite color: Red</div>
+
+    <div class="section">🐰 Favorite animals: Bunnies and Highland cows</div>
+
+    <div class="section">🍊 Favorite food: Orange chicken</div>
+
+    <div class="section">🍬 Favorite candy: Pascal Clinkers</div>
+
+    <div class="section">🎮 Favorite game: Roblox</div>
+
+    <div class="section">🎬 Favorite movie: Mean Girls</div>
+
+    <div class="section">📺 Favorite show: iCarly</div>
+
+    <div class="section">🎵 Favorite songs: White Keys and Babydoll by Dominic Fike</div>
+
+    <div class="section">⚽ Favorite sport: Soccer</div>
+
+    <div class="section">📚 Favorite book: Guts</div>
+
+    <div class="section">💎 Hobbies: Bedazzling, art, squishies, nails, and music</div>
+
+    <div class="section">🍂 Favorite season: Fall</div>
+
+    <button onclick="showMessage()">Click for a surprise!</button>
+
+    <h2 id="surprise"></h2>
+
+  </div>
+
+  <script>
+
+    function showMessage() {
+
+      document.getElementById("surprise").innerHTML =
+
+        "Lyla Bean is creative, fun, stylish, and awesome! 💖✨";
+
+    }
+
+  </script>
+
+</body>
+
+</html>
